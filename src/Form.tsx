@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const Form = ({ url, id }) => {
+const Form = ({ url, id }: { url: string; id: string }) => {
     useEffect(() => {
         var script = document.createElement("script");
         script.id = "ff-script";
